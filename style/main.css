@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.heart {
+    display: inline-block;
+    width: 10px;
+    aspect-ratio: 1;
+    border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+  }
