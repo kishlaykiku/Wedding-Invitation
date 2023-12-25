@@ -6,10 +6,29 @@ body {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url(../fonts/Alex_Brush/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .flex-row {

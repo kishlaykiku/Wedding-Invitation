@@ -1,0 +1,71 @@
+.auspicious {
+    position: relative;
+    background-color: #f7f7f7;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.time {
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.asset-green-flower {
+    position: absolute;
+    bottom: -75px;
+    z-index: 12;
+}
+
+.timer {
+    margin-top: 30px;
+}
+
+.unit-placeholder {
+    gap: 1.6rem;
+}
+
+.day h3 {
+    font-family: Alex Brush, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 60px;
+}
+
+.place {
+    word-wrap: break-word;
+    width: 60%;
+    margin: 25px 0 25px 0;
+}
+
+.place p {
+    word-wrap: break-word;
+    line-height: 27px;
+}
+
+.place p, .time {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.counter {
+    margin: 0;
+    font-size: 35px;
+    color: #70A076;
+}
+
+.unit {
+    margin: 0;
+    font-size: 14px;
+}
+
+.timer-end-message {
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #70A076;
+}

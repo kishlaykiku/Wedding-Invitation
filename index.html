@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/nav_mobile.css">
     <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/auspicious.css">
 
 </head>
 <body>
 
+    <!-- Navbar -->
     <section class="navbar-mobile">
         <div class="flex flex-row nav-container-mobile">
 
@@ -61,15 +63,57 @@
         </div>
     </section>
 
+    <!-- Home -->
     <section id="home" class="home-section">
-
-
 
     </section>
 
 
+<!-- When and Where  -->
+    <section class="flex flex-col auspicious">
+
+        <div class="flex flex-col">
+
+            <div class="flex flex-col day-place">
+                <div class="day"><h3>January 30th, 2024</h3></div>
+                <div class="place"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </div>
+
+            <div class="flex flex-col timer">
+
+                <div class="flex flex-row unit-placeholder">
+
+                    <div class="flex flex-col time">
+                        <p class="counter days">00</p>
+                        <p class="unit">Days</p>
+                    </div>
+                    <div class="flex flex-col time">
+                        <p class="counter hours">00</p>
+                        <p class="unit">Hours</p>
+                    </div>
+                    <div class="flex flex-col time">
+                        <p class="counter minutes">00</p>
+                        <p class="unit">Mins</p>
+                    </div>
+                    <div class="flex flex-col time">
+                        <p class="counter seconds">00</p>
+                        <p class="unit">Secs</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="asset-green-flower">
+            <img src="./images/assets/green-flower.png" alt="">
+        </div>
+    </section>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="./script/main.js"></script>
 <script src="./script/home.js"></script>
+<script src="./script/auspicious.js"></script>
 </body>
 </html>
