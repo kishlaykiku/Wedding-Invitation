@@ -1,49 +1,53 @@
+.navbar {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav-container {
-    gap: 2rem;
+    gap: 50rem;
+    padding: 1rem;
+    position: fixed;
+    top: 1px;
+    min-width: 90%;
+    background-color: transparent;
+    border-top: 1px solid rgba(222, 222, 222, 0.15);
+    border-bottom: 1px solid rgba(222, 222, 222,0.15);
 }
 
 .logo {
-    background-image: url('../images/logo1.png');
-    width: 100%;
-    height: 100px;
-    aspect-ratio: 1;
+    background-color: #000;
+    min-width: 100px;
+    height: 50px;
 }
 
-.hamburger {
-    cursor: pointer;
-}
-  
-.hamburger input {
-    display: none;
+.nav-link-container {
+    gap: 2rem;
 }
 
-.hamburger svg {
-    /* The size of the SVG defines the overall size */
-    height: 3em;
-    /* Define the transition for transforming the SVG */
-    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+.nav-link {
+    gap: 2rem;
 }
 
-.line {
-    fill: none;
-    stroke: black;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 3;
-    /* Define the transition for transforming the Stroke */
-    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-                stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+
+@media (max-width: 1400px) {
+    .nav-container {
+        
+    }
 }
 
-.line-top-bottom {
-    stroke-dasharray: 12 63;
-}
 
-.hamburger input:checked + svg {
-    transform: rotate(-45deg);
-}
+@media (min-width: 1200px) {
 
-.hamburger input:checked + svg .line-top-bottom {
-    stroke-dasharray: 20 300;
-    stroke-dashoffset: -32.42;
+    .navbar {
+        display: flex;
+    }
+
+    .navbar-mobile {
+        display: none;
+    }
+
+    .nav-link-container-mobile {
+        display: none;
+    }
 }

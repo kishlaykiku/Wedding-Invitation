@@ -1,0 +1,17 @@
+.home-section {
+    background-image: url('../images/home/home1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    transition: background-image 0.5s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+    .home-section {
+        /* Media query for screens below 1200px */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

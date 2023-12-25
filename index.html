@@ -7,13 +7,16 @@
 
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="./style/nav_mobile.css">
+    <link rel="stylesheet" href="./style/home.css">
 
 </head>
 <body>
 
-    <section class="navbar">
-        <div class="flex flex-row nav-container">
-            <div class="logo"></div>
+    <section class="navbar-mobile">
+        <div class="flex flex-row nav-container-mobile">
+
+            <div class="logo-mobile"></div>
 
             <div class="menu">
                 <div class="hamburger">
@@ -25,39 +28,48 @@
                         </svg>
                     </label>
                 </div>
+            </div>
 
-            <div class="flex flex-col nav-link-container">
-                <div class="home">
+        </div>
+    </section>
+
+    <section class="flex navbar">
+        <div class="flex flex-row nav-container">
+            <div class="logo"></div>
+
+            <div class="flex flex-row nav-link-container">
+                <div class="flex flex-row nav-link home">
                     <a href="#home">Home</a>
                     <span class="heart"></span>
                 </div>
                 
-                <div class="home">
+                <div class="flex flex-row nav-link gallery">
                     <a href="#gallery">Gallery</a>
                     <span class="heart"></span>
                 </div>
     
-                <div class="home">
+                <div class="flex flex-row nav-link events">
                     <a href="#events">Events</a>
                     <span class="heart"></span>
                 </div>
     
-                <div class="home">
+                <div class="flex flex-row nav-link location">
                     <a href="#location">Location</a>
-                    <span class="heart"></span>
                 </div>
             </div>
 
         </div>
     </section>
 
+    <section id="home" class="home-section">
 
 
 
-
+    </section>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="./script/main.js"></script>
+<script src="./script/home.js"></script>
 </body>
 </html>
