@@ -4,6 +4,7 @@
     position: fixed;
     min-width: 100%;
     gap: 50rem;
+    z-index: 999;
 }
 
 .logo-mobile {

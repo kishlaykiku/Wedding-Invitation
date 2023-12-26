@@ -1,0 +1,41 @@
+.gallery-section {
+    position: relative;
+    /* background-color: #fff; */
+    padding-bottom: 200px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 35px;
+    width: 70%;
+    height: 512px;
+    background-color: yellow;
+}
+
+.carousel-face {
+    background-image: url(../images/gallery/);
+}
+
+
+@media (max-width: 1200px) {
+    .carousel {
+        width: 90%;
+        height: 512px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .carousel {
+        width: 75%;
+        height: 340px;
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel {
+        width: 80%;
+        height: 180px;
+    }
+}
