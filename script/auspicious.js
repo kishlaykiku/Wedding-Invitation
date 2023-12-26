@@ -2,7 +2,7 @@
 function updateTime() {
 
     // Set the date we're counting down to
-    let target_date = new Date("Jan 30, 2024 23:59:59").getTime();
+    let target_date = new Date("Nov 30, 2023 23:59:59").getTime();
 
     // Get current date and time
     let current_date = new Date().getTime();
@@ -15,13 +15,13 @@ function updateTime() {
     let hours = Math.floor((time_difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutes = Math.floor((time_difference % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((time_difference % (1000 * 60)) / 1000);
-        
+  
     // Output the result
     $('.days').text(days);
     $('.hours').text(hours);
     $('.minutes').text(minutes);
     $('.seconds').text(seconds);
-    
+
     // If the count down is over, write some text 
     if (time_difference < 0) {
 
@@ -30,7 +30,11 @@ function updateTime() {
         // Clear all intervals to avoid repetation
         clearInterval(keep_track);
 
-        $('.unit-placeholder').remove();
+        $('.days').text('00');
+        $('.hours').text('00');
+        $('.minutes').text('00');
+        $('.seconds').text('00');
+
         $('.timer').append(message);
     }
 }
