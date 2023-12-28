@@ -71,6 +71,10 @@ p {
     width: 25%;
 }
 
+.last.line-asset img {
+    margin-bottom: 5%;
+}
+
 @media (max-width:625px) {
     .line-asset {
         bottom: -2.9%;

@@ -26,6 +26,16 @@
     background-color: transparent;
 }
 
+/*.header.mr{
+     transform: translateX(-70px) translateY(0px) rotate(-15deg)
+}
+.header.and{
+     transform: translateX(-20px) translateY(0px) rotate(-15deg)
+}
+.header.mrs{
+     transform: translateX(30px) translateY(0px) rotate(-15deg)
+} */
+
 .sparkle-effect {
     background-image: url(../images/assets/effect-sparkle1.png),url(../images/assets/effect-sparkle2.png);
     animation: sparkle 60s linear infinite;
@@ -48,7 +58,10 @@
     }
 
     .filler-img img {
-        width: 80%;
+        /*width: 80%;*/
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
     }
 }
 
