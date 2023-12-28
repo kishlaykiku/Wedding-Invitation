@@ -1,0 +1,51 @@
+.mr-mrs-container {
+    position: relative;
+    background-color: #fff;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.mr-mrs-txt {
+    margin: 50px;
+}
+
+.mr-mrs-txt h3 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.sparkle-effect {
+    background-image: url(../images/assets/effect-sparkle1.png),url(../images/assets/effect-sparkle2.png);
+    animation: sparkle 60s linear infinite;
+}
+
+@keyframes sparkle {
+    0% {
+        background-position: 0 0px,0 0px,0 0;
+    }
+    100% {
+        background-position: -500px -1000px,-400px -400px,300px 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .mr-mrs-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filler-img img {
+        width: 80%;
+    }
+}

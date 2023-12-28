@@ -1,7 +1,20 @@
-.location {
-  border: 2px dotted green;
-  margin: 0px 5% 10%;
-  border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 0px 1px 12px rgba(0, 128, 0);
+.map-section {
+    position: relative;
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.map-frame {
+    width: 80%;
+    border: 2px green;
+    margin: 35px 5% 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 12px rgba(0, 128, 0);
+}
+
+.line-asset img {
+    margin-top: 5%;
+    width: 50%;
 }
