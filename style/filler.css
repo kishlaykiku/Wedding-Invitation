@@ -3,6 +3,7 @@
     background-color: #fff;
     padding-top: 50px;
     margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .mr-mrs-txt {
@@ -43,9 +44,20 @@
     .mr-mrs-container {
         display: flex;
         flex-direction: column;
+        padding-bottom: 30px;
     }
 
     .filler-img img {
         width: 80%;
+    }
+}
+
+.mr-mrs-container .line-asset {
+    bottom: -6.9%;
+}
+
+@media (max-width: 625px) {
+    .mr-mrs-container .line-asset {
+        bottom: -2.9%;
     }
 }

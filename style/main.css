@@ -55,3 +55,30 @@ p {
     font-style: normal;
     line-height: 60px;
 }
+
+.asset {
+    position: absolute;
+    bottom: -75px;
+    z-index: 12;
+}
+
+.line-asset {
+    bottom: -2%;
+}
+
+.line-asset img {
+    margin-top: 5%;
+    width: 25%;
+}
+
+@media (max-width:625px) {
+    .line-asset {
+        bottom: -2.9%;
+    }
+}
+
+@media (max-width: 625px) {
+.line-asset > img {
+    width: 50%;
+    }
+}

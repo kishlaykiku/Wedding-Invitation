@@ -13,12 +13,6 @@
     background-color: #fff;
 }
 
-.asset-green-flower {
-    position: absolute;
-    bottom: -75px;
-    z-index: 12;
-}
-
 .timer {
     margin-top: 30px;
 }
