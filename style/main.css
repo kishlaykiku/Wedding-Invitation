@@ -66,14 +66,6 @@ p {
     flex-direction: column;
 }
 
-.heart {
-    display: inline-block;
-    width: 10px;
-    aspect-ratio: 1;
-    border-image: radial-gradient(red 69%, #0000 70%) 84.5%/50%;
-    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
-}
-
 .header {
     font-family: Alex Brush, sans-serif;
     font-size: 50px;
@@ -111,10 +103,6 @@ p {
 
 .w3-animate-opacity {
     animation-duration: 2s;
-}
-
-.w3-animate-bottom {
-    animation-duration: 1.2s;
 }
 
 .w3-animate-zoom {
