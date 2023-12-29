@@ -25,6 +25,16 @@ p {
     src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Aakash';
+    src: url(../fonts/AMS-Aakash/ams-aakash-webfont.woff);
+}
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+
 .flex {
     display: flex;
     justify-content: center;
@@ -73,7 +83,7 @@ p {
 
 @media (max-width:625px) {
     .line-asset {
-        bottom: -2.9%;
+        bottom: -2.6%;
     }
 }
 

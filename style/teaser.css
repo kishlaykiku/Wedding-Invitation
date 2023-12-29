@@ -1,3 +1,164 @@
+.teaser-section {
+    background-image: url(../images/teaser/teaser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .teaser-container {
-    
+    position: relative;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.teaser-header .teaser-header-hash {
+    font-family: Satisfy;
+    font-size: 55px;
+}
+
+.teaser-header .teaser-header-hindi {
+    font-family: Aakash;
+    font-style: italic;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.teaser-header .teaser-header-english {
+    font-family: Satisfy;
+    font-size: 55px;
+}
+
+.yt-container {
+    position: relative;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.yt-container iframe {
+    border-radius: 20px;
+}
+
+.yt-container .star1 {
+    position: absolute;
+    left: -4%;
+    top: 20%;
+    rotate: 45deg;
+}
+.yt-container .star1 svg {
+    height: 65px;
+    width: 65px;
+}
+
+.yt-container .star2 {
+    position: absolute;
+    left: 10%;
+    top: -3%;
+    rotate: 80deg;
+}
+.yt-container .star2 svg {
+    height: 45px;
+    width: 45px;
+}
+
+.yt-container .star3 {
+    position: absolute;
+    right: 10%;
+    bottom: -5%;
+    rotate: 80deg;
+}
+.yt-container .star3 svg {
+    height: 55px;
+    width: 55px;
+}
+
+.yt-container .star4 {
+    position: absolute;
+    right: -2%;
+    bottom: 15%;
+    rotate: 80deg;
+}
+.yt-container .star4 svg {
+    height: 65px;
+    width: 65px;
+}
+
+.yt-container .star5 {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    rotate: 50deg;
+}
+.yt-container .star5 svg {
+    height: 45px;
+    width: 45px;
+}
+
+@media (max-width: 625px) {
+    .yt-container {
+        width: 80%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 625px) {
+    .yt-container .star1 {
+        position: absolute;
+        left: -8%;
+        top: 20%;
+        rotate: 45deg;
+    }
+    .yt-container .star1 svg {
+        height: 45px;
+        width: 45px;
+    }
+
+    .yt-container .star2 {
+        position: absolute;
+        left: 15%;
+        top: -5%;
+        rotate: 80deg;
+    }
+    .yt-container .star2 svg {
+        height: 25px;
+        width: 25px;
+    }
+
+    .yt-container .star3 {
+        position: absolute;
+        right: 15%;
+        bottom: -5%;
+        rotate: 80deg;
+    }
+    .yt-container .star3 svg {
+        height: 35px;
+        width: 35px;
+    }
+
+    .yt-container .star4 {
+        position: absolute;
+        right: -3%;
+        bottom: 15%;
+        rotate: 80deg;
+    }
+    .yt-container .star4 svg {
+        height: 45px;
+        width: 45px;
+    }
+
+    .yt-container .star5 {
+        position: absolute;
+        right: 25%;
+        bottom: 10%;
+        rotate: 50deg;
+    }
+    .yt-container .star5 svg {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+.w3-animate-zoom {
+    animation-duration: 2s;
 }

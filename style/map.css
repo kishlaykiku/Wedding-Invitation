@@ -6,10 +6,30 @@
 }
 
 .map-frame {
-    width: 80%;
+    width: 50%;
     border: 2px green;
     margin: 35px 5% 0;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0px 1px 12px rgba(0, 128, 0);
+}
+
+.map-anim {
+    width: 100%;
+    position: relative;
+}
+
+.map-container .line-asset {
+    bottom: -2.6%;
+}
+
+@media (max-width: 625px) {
+    .map-container .line-asset {
+        bottom: -1.6%;
+    }
+
+    .map-frame {
+        width: 80%;
+        height: 300px;
+    }
 }
