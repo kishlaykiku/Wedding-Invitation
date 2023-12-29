@@ -24,7 +24,7 @@ $(document).ready(function() {
 
         if (isInViewport(days)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
-            days.addClass('w3-animate-left', 'w3-animate-opacity');
+            days.addClass('w3-animate-opacity');
         }
 
         if (isInViewport(hours_mins)) {
@@ -34,16 +34,16 @@ $(document).ready(function() {
 
         if (isInViewport(secs)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
-            secs.addClass('w3-animate-right', 'w3-animate-opacity');
+            secs.addClass('w3-animate-opacity');
         }
 
         if (isInViewport(fillerSectionMr)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
-            fillerSectionMr.addClass('w3-animate-left', 'w3-animate-opacity');
+            fillerSectionMr.addClass('w3-animate-bottom', 'w3-animate-opacity');
         }
 
         if (isInViewport(fillerSectionMrs)) {
-            fillerSectionMrs.addClass('w3-animate-right', 'w3-animate-opacity');
+            fillerSectionMrs.addClass('w3-animate-bottom', 'w3-animate-opacity');
         }
 
         if (isInViewport(fillerText)) {

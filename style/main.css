@@ -35,6 +35,22 @@ p {
     src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(119, 144, 124); 
+    border-radius: 10px;
+}
+
 .flex {
     display: flex;
     justify-content: center;
@@ -91,4 +107,16 @@ p {
 .line-asset > img {
     width: 50%;
     }
+}
+
+.w3-animate-opacity {
+    animation-duration: 2s;
+}
+
+.w3-animate-bottom {
+    animation-duration: 1.2s;
+}
+
+.w3-animate-zoom {
+    animation-duration: 2s;
 }
