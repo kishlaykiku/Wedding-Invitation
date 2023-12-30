@@ -111,7 +111,7 @@
 }
 
 .event-content-haldi:hover .icon-img-haldi, .event-content-henna:hover .icon-img-henna, .event-content-wedding:hover .icon-img-wedding, .event-content-party:hover .icon-img-party {
-    scale: 1.2;
+    rotate: 360deg;
     transition-duration: 400ms;
 }
 
@@ -155,4 +155,17 @@
     .events-container .line-asset {
         bottom: -0.7%;
     }
+}
+
+.event-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.event-img img {
+    transition: 0.2s all ease-in-out;
+}
+
+.event-img:hover img {
+    transform: scale(1.1);
 }
