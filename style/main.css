@@ -96,8 +96,8 @@ p {
 }
 
 @media (max-width: 625px) {
-.line-asset > img {
-    width: 50%;
+    .line-asset > img {
+        width: 50%;
     }
 }
 

@@ -15,6 +15,10 @@ $(document).ready(function() {
         var mapSection = $('.map-anim');
         var teaserSection = $('.teaser-container');
         var stars = $('.star1, .star2, .star3, .star4, .star5')
+        var event1 = $('.event1-anim');
+        var event2 = $('.event2-anim');
+        var event3 = $('.event3-anim');
+        var event4 = $('.event4-anim');
 
         // Check if the sections are in the viewport
         if (isInViewport(auspiciousTxt)) {
@@ -52,6 +56,22 @@ $(document).ready(function() {
 
         if (isInViewport(gallerySection)) {
             gallerySection.addClass('w3-animate-bottom', 'w3-animate-opacity');
+        }
+
+        if (isInViewport(event1)) {
+            event1.addClass('w3-animate-bottom', 'w3-animate-opacity');
+        }
+
+        if (isInViewport(event2)) {
+            event2.addClass('w3-animate-bottom', 'w3-animate-opacity');
+        }
+
+        if (isInViewport(event3)) {
+            event3.addClass('w3-animate-bottom', 'w3-animate-opacity');
+        }
+
+        if (isInViewport(event4)) {
+            event4.addClass('w3-animate-bottom', 'w3-animate-opacity');
         }
 
         if (isInViewport(mapSection)) {
