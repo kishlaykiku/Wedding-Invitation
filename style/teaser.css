@@ -13,6 +13,10 @@
     width: 100%;
 }
 
+.teaser-header {
+    color: black;
+}
+
 .teaser-header .teaser-header-hash {
     font-family: Satisfy;
     font-size: 55px;

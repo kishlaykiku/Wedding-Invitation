@@ -4,6 +4,10 @@ $(document).ready(function() {
         var viewportBottom = viewportTop + $(window).height();
 
         // Define the sections you want to add the 'hello' class to
+        var assetFlowerTop = $('.asset-flower-top');
+        var assetFlowerBottom = $('.asset-flower-bottom');
+        var firstTxt = $('.first-txt');
+        var secondTxt = $('.second-txt');
         var auspiciousTxt = $('.day-place')
         var days = $('.days-anim');
         var hours_mins = $('.hours-anim, .mins-anim')
@@ -21,6 +25,38 @@ $(document).ready(function() {
         var event4 = $('.event4-anim');
 
         // Check if the sections are in the viewport
+        if (isInViewport(assetFlowerTop)) {
+            // fillerSectionMr.addClass('w3-animate-opacity');
+            assetFlowerTop.addClass('custom-animate-bottom');
+            setTimeout(() => {
+                assetFlowerTop.css({'opacity': 1});
+            }, 1200);
+        }
+
+        if (isInViewport(assetFlowerBottom)) {
+            // fillerSectionMr.addClass('w3-animate-opacity');
+            assetFlowerBottom.addClass('custom-animate-top');
+            setTimeout(() => {
+                assetFlowerBottom.css({'opacity': 1});
+            }, 1200);
+        }
+
+        if (isInViewport(firstTxt)) {
+            // fillerSectionMr.addClass('w3-animate-opacity');
+            firstTxt.addClass('custom-animate-first-top');
+            setTimeout(() => {
+                firstTxt.css({'opacity': 1});
+            }, 800);
+        }
+
+        if (isInViewport(secondTxt)) {
+            // fillerSectionMr.addClass('w3-animate-opacity');
+            secondTxt.addClass('custom-animate-second-top');
+            setTimeout(() => {
+                secondTxt.css({'opacity': 1});
+            }, 300);
+        }
+
         if (isInViewport(auspiciousTxt)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
             auspiciousTxt.addClass('w3-animate-bottom', 'w3-animate-opacity');

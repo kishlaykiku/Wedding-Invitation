@@ -7,11 +7,107 @@
     transition: background-image 0.5s ease-in-out;
 }
 
+.middle-txt-wrapper {
+    margin: 18px 0 18px 0;
+    gap: 1rem;
+}
+
+.first-txt {
+    color: #fff;
+    font-family: Playfair;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.second-txt {
+    color: #fff;
+    font-size: 65px;
+}
+
 @media (max-width: 1200px) {
     .home-section {
         /* Media query for screens below 1200px */
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+}
+
+@media (max-width: 625px) {
+    .asset-flower {
+        width: 12rem;
+    }
+
+    .first-txt {
+        font-size: 18px;
+    }
+
+    .second-txt {
+        font-size: 45px;
+    }
+
+    .middle-txt-wrapper {
+        margin: 13px 0 13px 0;
+        gap: 0.3rem;
+    }
+}
+
+.asset-flower-top, .asset-flower-bottom {
+    opacity: 0;
+}
+
+.second-txt {
+    opacity: 0;
+}
+
+.first-txt {
+    opacity: 0;
+}
+
+.custom-animate-bottom {
+    position: relative;
+    animation: 0.5s animatebottomcustom;
+    animation-delay: 1.2s;
+}
+
+.custom-animate-top {
+    position: relative;
+    animation: 0.5s animatetopcustom;
+    animation-delay: 1.2s;
+}
+
+.custom-animate-first-top {
+    position: relative;
+    animation: 0.5s animatetopcustom;
+    animation-delay: 0.8s;
+}
+
+.custom-animate-second-top {
+    position: relative;
+    animation: 0.5s animatetopcustom;
+    animation-delay: 0.3s;
+}
+
+@keyframes animatebottomcustom {
+    0% {
+        bottom: -30px;
+        opacity: 0;
+    }
+    
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animatetopcustom {
+    0% {
+        top: -30px;
+        opacity: 0;
+    }
+    
+    100% {
+        top: 0;
+        opacity: 1;
     }
 }
