@@ -244,6 +244,10 @@
         width: 45px;
         height: 45px;
     }
+
+    .events-container .line-asset {
+        bottom: -0.65%;
+    }
 }
 
 @media (max-width: 300px) {

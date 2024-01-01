@@ -50,6 +50,10 @@
     .map-frame iframe {
         height: 300px;
     }
+
+    .place .reception-place {
+        line-height: 17px;
+    }
 }
 
 @media (max-width: 1100px) and (min-width: 626px) {
@@ -70,6 +74,10 @@
 
     .map-frame iframe {
         height: 450px;
+    }
+
+    .map-container .line-asset {
+        bottom: -1.6%;
     }
 }
 

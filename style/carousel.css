@@ -63,6 +63,10 @@
     .carousel-anim .header {
         font-size: 70px;
     }
+
+    .carousel-container .line-asset {
+        bottom: -1.6%;
+    }
 }
 
 @media (max-width: 300px) {

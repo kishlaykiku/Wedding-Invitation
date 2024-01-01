@@ -64,15 +64,24 @@
     .mr-mrs-container {
         display: flex;
         flex-direction: column;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
-    .filler-img img {
+    .filler-img {
         width: 100%;
     }
 
+    .filler-img img {
+        width: 45%;
+    }
+
     .mr-mrs-container .line-asset {
-        bottom: -3.2%;
+        bottom: -2.3%;
+    }
+
+    .mr-mrs-txt .header {
+        font-size: 90px;
+        line-height: 75px;
     }
 }
 

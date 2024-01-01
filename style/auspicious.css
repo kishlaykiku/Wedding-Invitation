@@ -65,6 +65,7 @@
     .place {
         font-size: 13px;
         margin-top: 0;
+        width: 70%;
     }
 
     .counter {
@@ -157,6 +158,10 @@
     .place {
         font-size: 9px;
         margin: 0;
+    }
+
+    .place p {
+        line-height: 15px;
     }
 
     .counter {
