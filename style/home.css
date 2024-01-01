@@ -1,5 +1,5 @@
 .home-section {
-    background-image: url("../images/home/home1.jpg");
+    background-image: url('../images/home/home1p.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,6 +53,11 @@
 }
 
 @media (max-width: 1100px) and (min-width: 626px) {
+
+    .home-section {
+        background-image: url('../images/home/home1m.jpg');
+    }
+
     .asset-flower {
         width: 400px;
     }
