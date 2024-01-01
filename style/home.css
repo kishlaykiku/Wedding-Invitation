@@ -35,7 +35,7 @@
 
 @media (max-width: 625px) {
     .asset-flower {
-        width: 12rem;
+        width: 190px;
     }
 
     .first-txt {
@@ -49,6 +49,44 @@
     .middle-txt-wrapper {
         margin: 13px 0 13px 0;
         gap: 0.3rem;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 626px) {
+    .asset-flower {
+        width: 400px;
+    }
+
+    .first-txt {
+        font-size: 40px;
+    }
+
+    .second-txt {
+        font-size: 95px;
+    }
+
+    .middle-txt-wrapper {
+        margin: 20px 0 20px 0;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .asset-flower {
+        width: 150px;
+    }
+
+    .first-txt {
+        font-size: 12px;
+    }
+
+    .second-txt {
+        font-size: 37px;
+    }
+
+    .middle-txt-wrapper {
+        margin: 2px 0 2px 0;
+        gap: 0rem;
     }
 }
 

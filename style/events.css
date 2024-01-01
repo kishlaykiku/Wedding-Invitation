@@ -116,34 +116,201 @@
 }
 
 @media (max-width: 625px) {
+    .events-container {
+        padding-bottom: 60px;
+        padding-top: 30px;
+    }
+
+    .events-container .header {
+        font-size: 40px;
+    }
+
     .event-inner-img {
         height: 110px;
         width: 170px;
     }
 
+    .event-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .icon-img {
+        height: 35px;
+        width: 28px;
+    }
+
+    .icon-img-henna {
+        height: 30px;
+        width: 33px;
+    }
+
+    .event-icon-henna {
+        left: 0;
+    }
+
+    .icon-img-party {
+        width: 26px;
+        height: 26px;
+    }
+
     .content-txt {
         font-size: 12px;
-        width: 168px;
+        width: 165px;
+        left: 0;
     }
 
     .left-track {
-        margin-right: 8.3rem;
+        margin-right: 125px;
     }
 
     .inner-content .header {
-        font-size: 30px;
+        font-size: 28px;
         padding-top: 5px;
         margin-bottom: 12px;
     }
 
     .event-track-line::before {
-        height: 330px;
+        height: 280px;
     }
 
     .content-date {
-        font-size: 11px;
+        font-size: 10px;
+        left: 38px;
+        top: 11px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 626px) {
+
+    .events-container {
+        padding-bottom: 80px;
+        padding-top: 60px;
+    }
+
+    .events-container .header {
+        font-size: 70px;
+    }
+
+    .event-inner-img {
+        height: 190px;
+        width: 300px;
+    }
+
+    .content-txt {
+        font-size: 17px;
+        width: 265px;
+        left: 0;
+    }
+
+    .left-track {
+        margin-right: 260px;
+    }
+
+    .inner-content .header {
+        font-size: 45px;
+        padding-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .event-track-line::before {
+        height: 375px
+    }
+
+    .content-date {
+        font-size: 20px;
+        left: 60px;
+        top: 12px;
+        width: 180px;
+    }
+
+    .event-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon-img {
+        height: 50px;
+        width: 40px;
+    }
+
+    .icon-img-henna {
+        height: 45px;
+        width: 45px;
+    }
+
+    .icon-img-party {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .events-container {
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    .events-container .header {
+        font-size: 40px;
+    }
+
+    .event-inner-img {
+        height: 85px;
+        width: 130px;
+    }
+
+    .event-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon-img {
+        height: 25px;
+        width: 22px;
+    }
+
+    .icon-img-henna {
+        height: 23px;
+        width: 25px;
+    }
+
+    .event-icon-henna {
+        left: 0;
+    }
+
+    .icon-img-party {
+        width: 20px;
+        height: 20px;
+    }
+
+    .content-txt {
+        font-size: 9px;
+        width: 125px;
+        left: 0;
+    }
+
+    .left-track {
+        margin-right: 95px;
+    }
+
+    .inner-content .header {
+        font-size: 25px;
+        padding-top: 0;
+        margin-bottom: 12px;
+    }
+
+    .event-track-line::before {
+        height: 240px;
+    }
+
+    .content-date {
+        font-size: 8px;
         left: 30px;
-        top: 13px;
+        top: 9px;
+        width: 80px;
     }
 }
 

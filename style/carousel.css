@@ -21,3 +21,70 @@
     object-fit: contain;
     object-position: center;
 }
+
+@media (max-width: 625px) {
+    .carousel-anim .header {
+        font-size: 40px;
+    }
+
+    .carousel {
+        margin-top: 10px;
+    }
+
+    .gallery-section {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 626px) {
+
+    .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+    }
+
+    .carousel-indicators .active {
+        width: 17px;
+        height: 17px;
+    }
+
+    .gallery-section {
+        padding-bottom: 70px;
+        padding-top: 60px;
+    }
+
+    .carousel {
+        margin-top: 45px;
+    }
+
+    .carousel-anim .header {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .carousel-indicators li {
+        width: 7px;
+        height: 7px;
+    }
+
+    .carousel-indicators .active {
+        width: 9px;
+        height: 9px;
+    }
+
+    .gallery-section {
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    .carousel {
+        margin-top: 0;
+    }
+
+    .carousel-anim .header {
+        font-size: 30px;
+    }
+}

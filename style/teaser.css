@@ -100,9 +100,83 @@
 }
 
 @media (max-width: 625px) {
+
+    .teaser-container {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
     .yt-container {
         width: 80%;
         height: 300px;
+    }
+
+    .teaser-hheader .teaser-header-hash {
+        font-size: 55px;
+    }
+    .teaser-hheader .teaser-header-hindi {
+        font-size: 55px
+    }
+
+    .teaser-hheader .teaser-header-english {
+        font-size: 55px
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 626px) {
+
+    .teaser-container {
+        padding-bottom: 70px;
+        padding-top: 60px;
+    }
+
+    .yt-container {
+        width: 80%;
+        height: 450px;
+    }
+
+    .yt-container iframe {
+        height: 450px;
+    }
+
+    .teaser-hheader .teaser-header-hash {
+        font-size: 50px;
+    }
+    .teaser-hheader .teaser-header-hindi {
+        font-size: 50px
+    }
+
+    .teaser-hheader .teaser-header-english {
+        font-size: 50px
+    }
+}
+
+@media (max-width: 300px) {
+
+    .teaser-container {
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    .yt-container {
+        width: 80%;
+        height: 250px;
+    }
+
+    .yt-container iframe {
+        height: 250px;
+    }
+
+    .teaser-hheader .teaser-header-hash {
+        font-size: 45px;
+    }
+
+    .teaser-hheader .teaser-header-hindi {
+        font-size: 45px
+    }
+
+    .teaser-hheader .teaser-header-english {
+        font-size: 45px
     }
 }
 

@@ -27,9 +27,70 @@
     .map-container .line-asset {
         bottom: -2%;
     }
+}
+
+@media (max-width: 625px) {
+
+    .map-section {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .map-anim .header {
+        font-size: 40px;
+    }
 
     .map-frame {
         width: 80%;
+        margin: 0;
+        margin-top: 10px;
         height: 300px;
+    }
+
+    .map-frame iframe {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 626px) {
+
+    .map-section {
+        padding-bottom: 70px;
+        padding-top: 60px;
+    }
+
+    .map-anim .header {
+        font-size: 70px;
+    }
+
+    .map-frame {
+        width: 80%;
+        height: 450px;
+    }
+
+    .map-frame iframe {
+        height: 450px;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .map-section {
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+
+    .map-anim .header {
+        font-size: 40px;
+    }
+
+    .map-frame {
+        width: 80%;
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    .map-frame iframe {
+        height: 250px;
     }
 }
