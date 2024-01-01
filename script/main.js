@@ -60,11 +60,13 @@ $(document).ready(function() {
         if (isInViewport(auspiciousTxt)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
             auspiciousTxt.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            auspiciousTxt.addClass('opacity-on');
         }
 
         if (isInViewport(days)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
             days.addClass('w3-animate-opacity');
+
         }
 
         if (isInViewport(hours_mins)) {
@@ -80,46 +82,57 @@ $(document).ready(function() {
         if (isInViewport(fillerSectionMr)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
             fillerSectionMr.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            fillerSectionMr.addClass('opacity-on');
         }
 
         if (isInViewport(fillerSectionMrs)) {
             fillerSectionMrs.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            fillerSectionMrs.addClass('opacity-on');
         }
 
         if (isInViewport(fillerText)) {
             fillerText.addClass('w3-animate-opacity');
+            fillerText.addClass('opacity-on');
         }
 
         if (isInViewport(gallerySection)) {
             gallerySection.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            gallerySection.addClass('opacity-on');
         }
 
         if (isInViewport(event1)) {
             event1.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            event1.addClass('opacity-on');
         }
 
         if (isInViewport(event2)) {
             event2.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            event2.addClass('opacity-on');
         }
 
         if (isInViewport(event3)) {
             event3.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            event3.addClass('opacity-on');
         }
 
         if (isInViewport(event4)) {
             event4.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            event4.addClass('opacity-on');
         }
 
         if (isInViewport(mapSection)) {
             mapSection.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            mapSection.addClass('opacity-on')
         }
 
         if (isInViewport(teaserSection)) {
             teaserSection.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            teaserSection.addClass('opacity-on')
         }
 
         if (isInViewport(stars)) {
             stars.addClass('w3-animate-zoom', 'w3-animate-opacity');
+            stars.addClass('opacity-on')
         }
     });
 
@@ -140,7 +153,7 @@ $(document).ready(function() {
             $(element).removeClass('w3-animate-right');
             $(element).removeClass('w3-animate-bottom');
             $(element).removeClass('w3-animate-zoom');
- 
+            $(element).removeClass('opacity-on')
         }
 
         return elementBottom > viewportTop && elementTop < viewportBottom;

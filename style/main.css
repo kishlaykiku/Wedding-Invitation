@@ -114,3 +114,11 @@ p {
 .w3-animate-zoom {
     animation-duration: 2s;
 }
+
+.opacity-off {
+    opacity: 0 !important;
+}
+
+.opacity-on {
+    opacity: 1 !important;
+}
