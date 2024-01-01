@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // Store image URLs
-    let images = ['../images/home/home1.jpg', '../images/home/home2.jpg', '../images/home/home3.jpg']
+    let images = ['/images/home/home1.jpg', '/images/home/home2.jpg', '/images/home/home3.jpg']
     let curr_index = 0;
 
     // Preload all images
