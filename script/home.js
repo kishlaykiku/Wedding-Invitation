@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     // Change the background every {specified time}
     function cycleBack() {
-        $('.home-section').css('background-image', 'url(' + images[curr_index] + ')');
+        $('.home-section').css('background-image', `url(${images[curr_index]})`);
 
         curr_index = (curr_index + 1) % images.length;
     }
