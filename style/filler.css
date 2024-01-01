@@ -60,7 +60,21 @@
     }
 }
 
+@media (max-width: 1100px) and (min-width: 626px) {
+    .mr-mrs-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
 
+    .filler-img img {
+        width: 100%;
+    }
+
+    .mr-mrs-container .line-asset {
+        bottom: -3.2%;
+    }
+}
 
 @media (max-width: 300px) {
     .mr-mrs-container {

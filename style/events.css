@@ -194,55 +194,55 @@
     }
 
     .event-inner-img {
-        height: 190px;
-        width: 300px;
+        height: 230px;
+        width: 360px;
     }
 
     .content-txt {
-        font-size: 17px;
+        font-size: 19px;
         width: 265px;
         left: 0;
     }
 
     .left-track {
-        margin-right: 260px;
+        margin-right: 295px;
     }
 
     .inner-content .header {
-        font-size: 45px;
-        padding-top: 25px;
+        font-size: 50px;
+        padding-top: 30px;
         margin-bottom: 25px;
     }
 
     .event-track-line::before {
-        height: 375px
+        height: 420px
     }
 
     .content-date {
-        font-size: 20px;
+        font-size: 23px;
         left: 60px;
         top: 12px;
-        width: 180px;
+        width: 215px;
     }
 
     .event-icon {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
     .icon-img {
-        height: 50px;
-        width: 40px;
+        height: 60px;
+        width: 50px;
     }
 
     .icon-img-henna {
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
     }
 
     .icon-img-party {
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
     }
 }
 

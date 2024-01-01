@@ -29,6 +29,7 @@
 
     .carousel {
         margin-top: 10px;
+        width: 100%;
     }
 
     .gallery-section {
@@ -56,6 +57,7 @@
 
     .carousel {
         margin-top: 45px;
+        width: 100%;
     }
 
     .carousel-anim .header {
@@ -82,6 +84,7 @@
 
     .carousel {
         margin-top: 0;
+        width: 100%;
     }
 
     .carousel-anim .header {
