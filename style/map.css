@@ -23,6 +23,11 @@
     bottom: -2.6%;
 }
 
+.place .reception-place {
+    text-decoration: underline;
+    user-select: text;
+}
+
 @media (max-width: 625px) {
     .map-container .line-asset {
         bottom: -2%;
