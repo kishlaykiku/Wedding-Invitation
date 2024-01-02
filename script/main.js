@@ -1,5 +1,5 @@
-let a, b, c;
 $(document).ready(function() {
+    let a, b, c, d;
     $(window).on('scroll', function() {
         var viewportTop = $(window).scrollTop();
         var viewportBottom = viewportTop + $(window).height();
@@ -28,6 +28,7 @@ $(document).ready(function() {
         clearTimeout(a);
         clearTimeout(b);
         clearTimeout(c);
+        clearTimeout(d);
 
         // Check if the sections are in the viewport
         if (isInViewport(assetFlowerTop)) {
@@ -105,7 +106,9 @@ $(document).ready(function() {
 
         if (isInViewport(fillerText)) {
             fillerText.addClass('w3-animate-opacity');
-            fillerText.addClass('opacity-on');
+            d = setTimeout(() => {
+                fillerText.addClass('opacity-on');
+            }, 2000);
         }
 
         if (isInViewport(gallerySection)) {
