@@ -74,7 +74,7 @@ $(document).ready(function() {
             days.addClass('w3-animate-opacity');
             a = setTimeout(() => {
                days.addClass('opacity-on');
-            }, 2000);
+            }, 1);
         }
 
         if (isInViewport(hours_mins)) {
@@ -82,7 +82,7 @@ $(document).ready(function() {
             hours_mins.addClass('w3-animate-opacity');
             b = setTimeout(() => {
                 hours_mins.addClass('opacity-on');
-            }, 2000);
+            }, 1);
         }
 
         if (isInViewport(secs)) {
@@ -90,7 +90,7 @@ $(document).ready(function() {
             secs.addClass('w3-animate-opacity');
             c = setTimeout(() => {
                 secs.addClass('opacity-on');
-            }, 2000);
+            }, 1);
         }
 
         if (isInViewport(fillerSectionMr)) {
@@ -108,7 +108,7 @@ $(document).ready(function() {
             fillerText.addClass('w3-animate-opacity');
             d = setTimeout(() => {
                 fillerText.addClass('opacity-on');
-            }, 2000);
+            }, 1);
         }
 
         if (isInViewport(gallerySection)) {
