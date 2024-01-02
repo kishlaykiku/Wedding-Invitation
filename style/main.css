@@ -116,7 +116,7 @@ p {
 }
 
 .opacity-off {
-    opacity: 0 !important;
+    opacity: 0;
 }
 
 .opacity-on {

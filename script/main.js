@@ -1,3 +1,4 @@
+let a, b, c;
 $(document).ready(function() {
     $(window).on('scroll', function() {
         var viewportTop = $(window).scrollTop();
@@ -23,6 +24,10 @@ $(document).ready(function() {
         var event2 = $('.event2-anim');
         var event3 = $('.event3-anim');
         var event4 = $('.event4-anim');
+
+        clearTimeout(a);
+        clearTimeout(b);
+        clearTimeout(c);
 
         // Check if the sections are in the viewport
         if (isInViewport(assetFlowerTop)) {
@@ -59,34 +64,42 @@ $(document).ready(function() {
 
         if (isInViewport(auspiciousTxt)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
-            auspiciousTxt.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            auspiciousTxt.addClass('w3-animate-bottom');
             auspiciousTxt.addClass('opacity-on');
         }
 
         if (isInViewport(days)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
             days.addClass('w3-animate-opacity');
-
+            a = setTimeout(() => {
+               days.addClass('opacity-on');
+            }, 2000);
         }
 
         if (isInViewport(hours_mins)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
             hours_mins.addClass('w3-animate-opacity');
+            b = setTimeout(() => {
+                hours_mins.addClass('opacity-on');
+            }, 2000);
         }
 
         if (isInViewport(secs)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
             secs.addClass('w3-animate-opacity');
+            c = setTimeout(() => {
+                secs.addClass('opacity-on');
+            }, 2000);
         }
 
         if (isInViewport(fillerSectionMr)) {
             // fillerSectionMr.addClass('w3-animate-opacity');
-            fillerSectionMr.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            fillerSectionMr.addClass('w3-animate-bottom');
             fillerSectionMr.addClass('opacity-on');
         }
 
         if (isInViewport(fillerSectionMrs)) {
-            fillerSectionMrs.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            fillerSectionMrs.addClass('w3-animate-bottom');
             fillerSectionMrs.addClass('opacity-on');
         }
 
@@ -96,42 +109,42 @@ $(document).ready(function() {
         }
 
         if (isInViewport(gallerySection)) {
-            gallerySection.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            gallerySection.addClass('w3-animate-bottom');
             gallerySection.addClass('opacity-on');
         }
 
         if (isInViewport(event1)) {
-            event1.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            event1.addClass('w3-animate-bottom');
             event1.addClass('opacity-on');
         }
 
         if (isInViewport(event2)) {
-            event2.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            event2.addClass('w3-animate-bottom');
             event2.addClass('opacity-on');
         }
 
         if (isInViewport(event3)) {
-            event3.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            event3.addClass('w3-animate-bottom');
             event3.addClass('opacity-on');
         }
 
         if (isInViewport(event4)) {
-            event4.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            event4.addClass('w3-animate-bottom');
             event4.addClass('opacity-on');
         }
 
         if (isInViewport(mapSection)) {
-            mapSection.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            mapSection.addClass('w3-animate-bottom');
             mapSection.addClass('opacity-on')
         }
 
         if (isInViewport(teaserSection)) {
-            teaserSection.addClass('w3-animate-bottom', 'w3-animate-opacity');
+            teaserSection.addClass('w3-animate-bottom');
             teaserSection.addClass('opacity-on')
         }
 
         if (isInViewport(stars)) {
-            stars.addClass('w3-animate-zoom', 'w3-animate-opacity');
+            stars.addClass('w3-animate-zoom');
             stars.addClass('opacity-on')
         }
     });
