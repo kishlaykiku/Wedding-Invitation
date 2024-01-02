@@ -5,25 +5,6 @@ $(document).ready(function () {
     let images_desktop = ['./images/home/home1p.jpg', './images/home/home2p.jpg', './images/home/home3p.jpg']
     let curr_index = 0;
 
-
-    // Preload all images
-    function preloadMobileImages(images_mobile) {
-        let img1;
-        for (var i = 0; i < images_mobile.length; i++) {
-            img1 = new Image();
-            img1.src = images_mobile[i];
-        }
-    }
-    function preloadDesktopImages(images_desktop) {
-        let img2;
-        for (var i = 0; i < images_desktop.length; i++) {
-            img2 = new Image();
-            img2.src = images_desktop[i];
-        }
-    }
-    preloadMobileImages(images_mobile);
-    preloadDesktopImages(images_desktop);
-
     // Change the background every {specified time}
     function cycleBack() {
 
