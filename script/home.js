@@ -29,5 +29,5 @@ $(document).ready(function () {
         }
     }
 
-    setInterval(cycleBack, 3500);
+    setInterval(cycleBack, 2000);
 });

@@ -102,8 +102,20 @@
 .content-txt {
     color: #808080;
     position: absolute;
-    bottom: -50px;
+    bottom: -75px;
     width: 295px;
+}
+
+.event2-anim .actual-event-contents .inner-content .content-txt {
+    bottom: -55px;
+}
+
+.event3-anim .actual-event-contents .inner-content .content-txt {
+    bottom: -80px;
+}
+
+.event4-anim .actual-event-contents .inner-content .content-txt {
+    bottom: -55px;
 }
 
 .icon-img {
@@ -158,6 +170,19 @@
         font-size: 12px;
         width: 165px;
         left: 0;
+        bottom: -75px;
+    }
+
+    .event2-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -50px;
+    }
+
+    .event3-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -105px;
+    }
+
+    .event4-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -50px;
     }
 
     .left-track {
@@ -171,7 +196,7 @@
     }
 
     .event-track-line::before {
-        height: 280px;
+        height: 300px;
     }
 
     .content-date {
@@ -202,6 +227,19 @@
         font-size: 19px;
         width: 265px;
         left: 0;
+        bottom: -85px;
+    }
+
+    .event2-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -60px;
+    }
+
+    .event3-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -110px;
+    }
+
+    .event4-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -60px;
     }
 
     .left-track {
@@ -215,7 +253,7 @@
     }
 
     .event-track-line::before {
-        height: 420px
+        height: 500px;
     }
 
     .content-date {
@@ -294,6 +332,19 @@
         font-size: 9px;
         width: 125px;
         left: 0;
+        bottom: -75px;
+    }
+
+    .event2-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -55px;
+    }
+
+    .event3-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -105px;
+    }
+
+    .event4-anim .actual-event-contents .inner-content .content-txt {
+        bottom: -55px;
     }
 
     .left-track {
@@ -307,7 +358,7 @@
     }
 
     .event-track-line::before {
-        height: 240px;
+        height: 300px;
     }
 
     .content-date {
