@@ -15,10 +15,6 @@
     margin-right: 15rem;
 }
 
-.right-event {
-    
-}
-
 .event-track-top::before {
     content: ' ';
     display: block;
