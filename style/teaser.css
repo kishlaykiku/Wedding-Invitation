@@ -34,6 +34,14 @@
     font-size: 55px;
 }
 
+.teaser-container .place {
+    margin-bottom: 0;
+}
+
+.teaser-container .place p {
+    margin-left: 20px;
+}
+
 .yt-container {
     position: relative;
     width: 50%;
@@ -108,6 +116,15 @@
     .teaser-container {
         padding-top: 30px;
         padding-bottom: 50px;
+    }
+
+    .teaser-container .place {
+        margin-bottom: 0;
+    }
+
+    .teaser-container .place p {
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     .yt-container {

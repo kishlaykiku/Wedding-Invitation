@@ -6,7 +6,7 @@
 }
 
 .events-contents {
-    margin-top: 35px;
+    margin-top: 0;
 }
 
 .left-track {
@@ -18,9 +18,9 @@
 .event-track-top::before {
     content: ' ';
     display: block;
-    width: 18px;
-    height: 18px;
-    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
     border: 4px solid #f7f7f7;
     background-color: #70A076;
 }
@@ -29,7 +29,7 @@
     content: '';
     display: block;
     height: 500px;
-    width: 4px;
+    width: 10px;
     background: #fff7f7;
 }
 
@@ -102,18 +102,6 @@
     width: 295px;
 }
 
-.event2-anim .actual-event-contents .inner-content .content-txt {
-    bottom: -55px;
-}
-
-.event3-anim .actual-event-contents .inner-content .content-txt {
-    bottom: -105px;
-}
-
-.event4-anim .actual-event-contents .inner-content .content-txt {
-    bottom: -55px;
-}
-
 .icon-img {
     transition-duration: 400ms;
 }
@@ -121,6 +109,10 @@
 .event-content-haldi:hover .icon-img-haldi, .event-content-henna:hover .icon-img-henna, .event-content-wedding:hover .icon-img-wedding, .event-content-party:hover .icon-img-party {
     rotate: 360deg;
     transition-duration: 400ms;
+}
+
+.events-container .line-asset {
+    bottom: -0.75%;
 }
 
 @media (max-width: 625px) {
@@ -139,18 +131,18 @@
     }
 
     .event-icon {
-        width: 45px;
-        height: 45px;
+        width: 55px;
+        height: 55px;
     }
 
     .icon-img {
-        height: 35px;
-        width: 28px;
+        height: 45px;
+        width: 40px;
     }
 
     .icon-img-henna {
-        height: 30px;
-        width: 33px;
+        height: 40px;
+        width: 45px;
     }
 
     .event-icon-henna {
@@ -158,47 +150,35 @@
     }
 
     .icon-img-party {
-        width: 26px;
-        height: 26px;
+        width: 37px;
+        height: 37px;
     }
 
     .content-txt {
-        font-size: 12px;
+        font-size: 13px;
         width: 165px;
         left: 0;
-        bottom: -75px;
-    }
-
-    .event2-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -50px;
-    }
-
-    .event3-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -105px;
-    }
-
-    .event4-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -50px;
+        bottom: -55px;
     }
 
     .left-track {
-        margin-right: 125px;
+        margin-right: 140px;
     }
 
     .inner-content .header {
-        font-size: 28px;
-        padding-top: 5px;
-        margin-bottom: 12px;
+        font-size: 35px;
+        padding-top: 15px;
+        margin-bottom: 15px;
     }
 
     .event-track-line::before {
-        height: 300px;
+        height: 280px;
     }
 
     .content-date {
-        font-size: 10px;
-        left: 38px;
-        top: 11px;
+        font-size: 15px;
+        left: 48px;
+        top: 0;
         width: 100px;
     }
 }
@@ -220,32 +200,21 @@
     }
 
     .content-txt {
-        font-size: 19px;
-        width: 265px;
+        font-size: 25px;
+        width: 285px;
         left: 0;
-        bottom: -85px;
-    }
-
-    .event2-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -60px;
-    }
-
-    .event3-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -110px;
-    }
-
-    .event4-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -60px;
+        line-height: 33px;
+        bottom: -90px;
     }
 
     .left-track {
-        margin-right: 295px;
+        margin-right: 270px;
     }
 
     .inner-content .header {
-        font-size: 50px;
-        padding-top: 30px;
-        margin-bottom: 25px;
+        font-size: 55px;
+        padding-top: 35px;
+        margin-bottom: 20px;
     }
 
     .event-track-line::before {
@@ -253,34 +222,34 @@
     }
 
     .content-date {
-        font-size: 23px;
+        font-size: 26px;
         left: 60px;
-        top: 12px;
+        top: 0px;
         width: 215px;
     }
 
     .event-icon {
-        width: 70px;
-        height: 70px;
+        width: 85px;
+        height: 85px;
     }
 
     .icon-img {
-        height: 60px;
-        width: 50px;
+        height: 75px;
+        width: 65px;
     }
 
     .icon-img-henna {
-        height: 50px;
-        width: 50px;
+        height: 65px;
+        width: 70px;
     }
 
     .icon-img-party {
-        width: 45px;
-        height: 45px;
+        width: 62px;
+        height: 60px;
     }
 
     .events-container .line-asset {
-        bottom: -0.65%;
+        bottom: -0.6%;
     }
 }
 
@@ -296,23 +265,23 @@
     }
 
     .event-inner-img {
-        height: 85px;
-        width: 130px;
+        height: 90px;
+        width: 135px;
     }
 
     .event-icon {
-        width: 35px;
-        height: 35px;
+        width: 42px;
+        height: 42px;
     }
 
     .icon-img {
-        height: 25px;
-        width: 22px;
+        height: 32px;
+        width: 27px;
     }
 
     .icon-img-henna {
-        height: 23px;
-        width: 25px;
+        height: 28px;
+        width: 33px;
     }
 
     .event-icon-henna {
@@ -320,27 +289,16 @@
     }
 
     .icon-img-party {
-        width: 20px;
-        height: 20px;
+        width: 28px;
+        height: 28px;
     }
 
     .content-txt {
-        font-size: 9px;
+        font-size: 11px;
         width: 125px;
         left: 0;
-        bottom: -75px;
-    }
-
-    .event2-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -55px;
-    }
-
-    .event3-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -105px;
-    }
-
-    .event4-anim .actual-event-contents .inner-content .content-txt {
-        bottom: -55px;
+        bottom: -40px;
+        line-height: 15px;
     }
 
     .left-track {
@@ -348,25 +306,21 @@
     }
 
     .inner-content .header {
-        font-size: 25px;
-        padding-top: 0;
-        margin-bottom: 12px;
+        font-size: 28px;
+        padding-top: 5px;
+        margin-bottom: 0;
     }
 
     .event-track-line::before {
-        height: 300px;
+        height: 220px;
     }
 
     .content-date {
-        font-size: 8px;
-        left: 30px;
-        top: 9px;
+        font-size: 11px;
+        left: 32px;
+        top: 0px;
         width: 80px;
     }
-}
-
-.events-container .line-asset {
-    bottom: -0.75%;
 }
 
 @media (max-width: 625px) {
