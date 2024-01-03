@@ -1,7 +1,7 @@
 .events-container {
     position: relative;
     background-color: #fff;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-top: 50px;
 }
 
@@ -35,8 +35,8 @@
 
 .event-icon {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     background-color: #f7f7f7;
     border: 4px solid #f7f7f7;
@@ -49,23 +49,23 @@
 }
 
 .icon-img {
-    height: 40px;
-    width: 35px;
+    height: 50px;
+    width: 42px;
 }
 
 .icon-img-henna {
-    height: 35px;
-    width: 35px;
+    height: 42px;
+    width: 45px;
 }
 
 .icon-img-party {
-    height: 33px;
-    width: 33px;
+    height: 40px;
+    width: 40px;
 }
 
 .event-inner-img {
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 390px;
     border-radius: 10px;
 }
 
@@ -78,28 +78,30 @@
 
 .inner-content .header {
     width: 100%;
-    font-size: 40px;
-    padding-top: 25px;
-    margin-bottom: -5px;
+    font-size: 48px;
+    padding-top: 30px;
+    margin-bottom: 0;
 }
 
 .content-date {
     font-family: Poppins;
     color: #70A076;
     width: 100%;
-    font-size: 15px;
+    font-size: 17px;
     padding-bottom: 5px;
     position: absolute;
     left: 50px;
     width: 132px;
-    top: 10px;
+    top: 0px;
 }
 
 .content-txt {
     color: #808080;
     position: absolute;
-    bottom: -75px;
-    width: 295px;
+    bottom: -55px;
+    width: 355px;
+    left: 0;
+    font-size: 20px;
 }
 
 .icon-img {
