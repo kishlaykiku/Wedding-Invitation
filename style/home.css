@@ -36,13 +36,13 @@
     bottom: 1rem;
     /* animation: down 1.5s infinite; */
     color: #fff;
-    width: 130%;
+    width: 155%;
     font-family: Poppins, sans-serif;
 }
 
 .scroll {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	border: 2px solid #fff;
 	border-radius: 50%;
 	position: relative;
@@ -52,10 +52,10 @@
 	&::before {
 		content: '';
 		position: absolute;
-		top: 23px;
-		left: 19px;
-		width: 18px;
-		height: 18px;
+		top: 20px;
+		left: 17px;
+		width: 13px;
+		height: 13px;
 		border-left: 2px solid #fff;
   	    border-bottom: 2px solid #fff;
 		transform: rotate(133deg);
