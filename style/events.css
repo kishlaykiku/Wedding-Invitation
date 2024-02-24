@@ -85,21 +85,20 @@
 
 .content-date {
     font-family: Poppins;
-    color: #70A076;
-    width: 100%;
+    color: rgb(112, 160, 118);
     font-size: 17px;
     padding-bottom: 5px;
     position: absolute;
-    left: 50px;
+    left: 60px;
     width: 132px;
-    top: 0px;
+    top: 13px;
 }
 
 .content-txt {
     color: #808080;
     position: absolute;
     bottom: -55px;
-    width: 35595px;
+    width: 395px;
     left: 0;
     font-size: 20px;
 }
