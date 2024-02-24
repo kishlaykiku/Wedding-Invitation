@@ -131,25 +131,25 @@ $(document).ready(function() {
             event3.addClass('opacity-on');
         }
 
-        if (isInViewport(event4)) {
-            event4.addClass('w3-animate-bottom');
-            event4.addClass('opacity-on');
-        }
+        // if (isInViewport(event4)) {
+        //     event4.addClass('w3-animate-bottom');
+        //     event4.addClass('opacity-on');
+        // }
 
         if (isInViewport(mapSection)) {
             mapSection.addClass('w3-animate-bottom');
             mapSection.addClass('opacity-on')
         }
 
-        if (isInViewport(teaserSection)) {
-            teaserSection.addClass('w3-animate-bottom');
-            teaserSection.addClass('opacity-on')
-        }
+        // if (isInViewport(teaserSection)) {
+        //     teaserSection.addClass('w3-animate-bottom');
+        //     teaserSection.addClass('opacity-on')
+        // }
 
-        if (isInViewport(stars)) {
-            stars.addClass('w3-animate-zoom');
-            stars.addClass('opacity-on')
-        }
+        // if (isInViewport(stars)) {
+        //     stars.addClass('w3-animate-zoom');
+        //     stars.addClass('opacity-on')
+        // }
     });
 
     // Function to check if an element is in the viewport

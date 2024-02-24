@@ -203,7 +203,7 @@
 
     .content-txt {
         font-size: 25px;
-        width: 285px;
+        width: 357px;
         left: 0;
         line-height: 33px;
         bottom: -90px;
@@ -225,9 +225,9 @@
 
     .content-date {
         font-size: 26px;
-        left: 60px;
+        left: 65px;
         top: 0px;
-        width: 215px;
+        width: 180px;
     }
 
     .event-icon {
@@ -297,7 +297,7 @@
 
     .content-txt {
         font-size: 11px;
-        width: 125px;
+        width: 130px;
         left: 0;
         bottom: -40px;
         line-height: 15px;
@@ -321,7 +321,7 @@
         font-size: 11px;
         left: 32px;
         top: 0px;
-        width: 80px;
+        width: 75px;
     }
 }
 
