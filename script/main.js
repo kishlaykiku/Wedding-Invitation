@@ -9,6 +9,7 @@ $(document).ready(function() {
         var assetFlowerBottom = $('.asset-flower-bottom');
         var firstTxt = $('.first-txt');
         var secondTxt = $('.second-txt');
+        var scrollAnim = $('.scroll-anim-container');
         var auspiciousTxt = $('.day-place')
         var days = $('.days-anim');
         var hours_mins = $('.hours-anim, .mins-anim')
@@ -61,6 +62,12 @@ $(document).ready(function() {
             setTimeout(() => {
                 secondTxt.css({'opacity': 1});
             }, 300);
+        }
+
+        if(isInViewport(scrollAnim)) {
+            setTimeout(() => {
+                scrollAnim.animate({'opacity': 1});
+            }, 1800)
         }
 
         if (isInViewport(auspiciousTxt)) {
